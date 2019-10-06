@@ -56,9 +56,9 @@ namespace _06_10_2019_Cevre_Alan_Hesaplamaları
                     }
                     break;
             }
-                    Console.WriteLine("Yeni bir işleme devam etmek istiyor musunuz? Evet(e) - Hayır(h)");
+                    Console.WriteLine("Yeni bir işleme devam etmek istiyor musunuz? Evet(e,E) - Hayır(h)");
                     secim = char.Parse(Console.ReadLine());
-                    if (secim == 'e')
+                    if (secim == 'e' || secim == 'E')
                     {
                         goto baslangıc;
                     }
